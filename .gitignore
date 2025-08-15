@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+
+# build / binaries
+bin/
+build/
+*.out
+*.exe
+*.log
+
+# Go tooling
+coverage*
