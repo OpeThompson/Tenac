@@ -1,1 +1,25 @@
-// placeholder content for kvstore.proto
+syntax = "proto3";
+
+package kvstore;
+option go_package = "github.com/OpeThompson/tenac/proto;kvstore";
+
+service KeyValueStore {
+  rpc Set (SetRequest) returns (SetResponse);
+  rpc Get (GetRequest) returns (GetResponse);
+  rpc HealthCheck (HealthRequest) returns (HealthResponse);
+}
+
+message SetRequest {
+  string key = 1;
+  string value = 2;
+}
+message SetResponse { bool success = 1; }
+
+message GetRequest { string key = 1; }
+message GetResponse {
+  string value = 1;
+  bool found = 2;
+}
+
+message HealthRequest { string from_node_id = 1; }
+message HealthResponse { bool healthy = 1; }
