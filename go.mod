@@ -1,4 +1,4 @@
-module github.com/OpeThompson/tenac
+module github.com/OpeThompson/Tenac
 
 go 1.23.0
 

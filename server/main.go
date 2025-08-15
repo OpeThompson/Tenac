@@ -10,8 +10,8 @@ import (
     "os"
     "time"
 
-    pb "github.com/OpeThompson/tenac/proto"
-    "github.com/OpeThompson/tenac/internal"
+    pb "github.com/OpeThompson/Tenac/proto"
+    "github.com/OpeThompson/Tenac/internal"
 
     "google.golang.org/grpc"
     "google.golang.org/grpc/credentials/insecure"

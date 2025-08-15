@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package kvstore;
-option go_package = "github.com/OpeThompson/tenac/proto;kvstore";
+option go_package = "github.com/OpeThompson/Tenac/proto;kvstore";
 
 service KeyValueStore {
   rpc Set (SetRequest) returns (SetResponse);

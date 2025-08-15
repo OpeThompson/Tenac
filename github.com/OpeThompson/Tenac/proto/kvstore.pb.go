@@ -326,7 +326,7 @@ const file_proto_kvstore_proto_rawDesc = "" +
 	"\rKeyValueStore\x120\n" +
 	"\x03Set\x12\x13.kvstore.SetRequest\x1a\x14.kvstore.SetResponse\x120\n" +
 	"\x03Get\x12\x13.kvstore.GetRequest\x1a\x14.kvstore.GetResponse\x12>\n" +
-	"\vHealthCheck\x12\x16.kvstore.HealthRequest\x1a\x17.kvstore.HealthResponseB,Z*github.com/OpeThompson/tenac/proto;kvstoreb\x06proto3"
+	"\vHealthCheck\x12\x16.kvstore.HealthRequest\x1a\x17.kvstore.HealthResponseB,Z*github.com/OpeThompson/Tenac/proto;kvstoreb\x06proto3"
 
 var (
 	file_proto_kvstore_proto_rawDescOnce sync.Once
